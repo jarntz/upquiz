@@ -1,0 +1,28 @@
+/* CSS Document */
+
+#block7 {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  text-align: center;
+  margin: 0;
+}
+
+#block7-content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#block7-content p {
+  height: auto;
+  margin-bottom: 60px;
+}
+
+#block7 {
+  background-image: url('../images/headerbg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,0 +1,55 @@
+/* CSS Document */
+
+@media only screen and (max-width: 900px) {
+  #hero-cta,
+  #hero-visual,
+  #block1-content,
+  #block2-right-content,
+  #block3-left-content,
+  #block4-content,
+  #block5-content,
+  #block6-right-content,
+  #block7-content {
+    padding: 0 30px;
+  }
+
+  .h1-hero,
+  .h2-text {
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0;
+  }
+
+  #hero-visual img {
+    width: 100%;
+  }
+
+  #block1,
+  #block4 {
+    background-attachment: scroll;
+  }
+
+  #block2-left,
+  #block2-right,
+  #block3-left,
+  #block3-right,
+  #block6-left,
+  #block6-right {
+    width: 100%;
+  }
+
+  #block3 {
+    display: none;
+  }
+
+  #block4,
+  #block7 {
+    margin-top: 700px;
+  }
+
+  #block2-right-content,
+  #block6-right-content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
